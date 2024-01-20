@@ -253,6 +253,6 @@ Assuming that the password is 8 characters long and the password only contains l
 
 The password is already strong enough. However, if we want to make it even stronger, we can increase the length of the password or add special characters to the password such as `!@#$%^&*()_+`.
 
-## 6. What is salt? Please explain its role in protec#ng a password hash.
+## 6. What is salt? Please explain its role in protecting a password hash.
 
 Salt is used to prevent the attacker from using rainbow table to crack the password. It is a random string that is added to the password before hashing. It is then stored together with the password before hash thus rendering the known password to be useless if the attacker does not know the salt.
